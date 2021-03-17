@@ -39,3 +39,26 @@ li {
 }
 
 /* HEADER */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 1.5rem);
+  height: 6.25rem;
+  margin: 0 auto;
+}
+.nav__logo {
+  line-height: 0;
+}
+.nav__menu {
+  display: none;
+}
+.nav__icon {
+  line-height: 0;
+}
