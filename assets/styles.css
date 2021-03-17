@@ -1,7 +1,41 @@
 /* VARIABLES */
 
-/* fonts */
+:root {
+ /* fonts */
+ --body-f: 'Alata', sans-serif;
+ --heading-f: 'Josefin Sans', sans-serif;;
+ /* colors */
+ --White: hsl(0, 0%, 100%);
+ --Black: hsl(0, 0%, 0%);
+ --Dark-Gray: hsl(0, 0%, 55%);
+ --Very-Dark-Gray: hsl(0, 0%, 41%);
 
-/* colors */
 
+}
 /* LAYOUT */
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  font-family: var(--body-f);
+}
+h2, h3 {
+  font-family: var(--heading-f);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+
+/* HEADER */
