@@ -17,7 +17,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; color: #FFF;}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -44,7 +44,7 @@
     </nav>
   </header>
   <!-- MAIN -->
-  <main>
+  <main class="main">
     <!-- HERO -->
     <div class="hero">
       <figure class="img-container">
@@ -121,19 +121,21 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__logo">
-      <img src="./images/logo.svg" alt="loopstudios logo">
+    <div class="footer-container">
+      <div class="footer__logo">
+        <img src="./images/logo.svg" alt="loopstudios logo">
+      </div>
+      <div class="footer__menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#">About</a></li>
+          <li class="nav__item"><a href="#">Careers</a></li>
+          <li class="nav__item"><a href="#">Events</a></li>
+          <li class="nav__item"><a href="#">Products</a></li>
+          <li class="nav__item"><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
     </div>
-    <div class="footer__menu">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#">About</a></li>
-        <li class="nav__item"><a href="#">Careers</a></li>
-        <li class="nav__item"><a href="#">Events</a></li>
-        <li class="nav__item"><a href="#">Products</a></li>
-        <li class="nav__item"><a href="#">Support</a></li>
-      </ul>
-    </div>
-    <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Alejandro Argüello</a>.

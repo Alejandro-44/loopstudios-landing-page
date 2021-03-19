@@ -111,7 +111,6 @@ img {
 .creations {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .creations-container {
   margin: 1.5rem 0;
@@ -145,9 +144,14 @@ img {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.35em;
-  
+  align-self: center;
 }
 /* FOOTER */
 .footer {
   background-color: #000;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
