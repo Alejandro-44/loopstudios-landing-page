@@ -146,10 +146,17 @@ img {
   border: 2px solid #FFF;  
 }
 /* About */
-.section__info {
+.about__info {
   color: #8c8c8c;
   line-height: 25px;
   text-align: center;
+}
+.about-container {
+  max-width: 546px;
+  background-color: #FFF;
+}
+.about__img {
+  max-width: 731px;
 }
 /* Creations */
 .creations {
@@ -222,10 +229,17 @@ img {
 .icon-container {
   line-height: 0;
 }
-
 .copyright {
   color: #FFF;
 }
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  color: #FFF;
+}
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
 /* Media queries */
 @media screen and (min-width:768px) {
 
@@ -241,6 +255,15 @@ img {
   }
   .title-container {
     top: 20%;
+  }
+  .about {
+    position: relative;
+  }
+  .about-container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 2rem;
   }
   .creations {
     display: grid;
