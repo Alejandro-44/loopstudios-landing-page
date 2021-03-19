@@ -82,16 +82,7 @@ img {
   line-height: 0;
 }
 /* menu responsive */
-.nav__icon {    
-  display: none;
-}
-.nav__list {
-  display: flex;
-  align-items: center;
-}
-.nav__link {
-  margin-right: 25px;
-}
+
 @media screen and (max-width:767px) {
   .nav__icon {
     display: block;
@@ -222,4 +213,17 @@ img {
 
 .copyright {
   color: #FFF;
+}
+/* Media queries */
+@media screen and (min-width:768px) {
+  .nav__icon {    
+    display: none;
+  }
+  .nav__list {
+    display: flex;
+    align-items: center;
+  }
+  .nav__link {
+    margin-right: 25px;
+  }
 }
