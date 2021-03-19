@@ -207,6 +207,7 @@ img {
   flex-direction: column;
   align-items: center;
   padding-top: 54px;
+  width: var(--section-w);
   max-width: 1114px;
   margin: auto;
 }
@@ -237,7 +238,7 @@ img {
   text-align: center; 
   color: #FFF;
 }
-  .attribution a { 
+.attribution a { 
     color: hsl(228, 45%, 44%); 
   }
 /* Media queries */
@@ -286,6 +287,15 @@ img {
   .footer-container {
     flex-direction: row;
     justify-content: space-between;
+  }
+  .social {
+    margin-top: .5rem;
+  }
+  .footer__menu {
+    margin-bottom: 1rem;
+  }
+  .footer__item {
+    margin-top: 0;
   }
 }
 @media screen and (min-width:1024px) {
