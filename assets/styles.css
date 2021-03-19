@@ -14,7 +14,9 @@
   --section-w: calc(100% - 3rem);
 }
 /* LAYOUT */
-
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 16px;
 }
@@ -59,10 +61,6 @@ img {
   line-height: 0;
 }
 /* HEADER */
-* {
-  box-sizing: border-box;
-}
-
 .header {
   position: absolute;
   top: 0;
