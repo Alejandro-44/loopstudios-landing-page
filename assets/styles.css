@@ -13,6 +13,7 @@
 
 }
 /* LAYOUT */
+
 html {
   font-size: 16px;
 }
@@ -37,8 +38,13 @@ ul {
 li {
   list-style: none;
 }
-
+img {
+  width: 100%;
+}
 /* HEADER */
+* {
+  box-sizing: border-box;
+}
 .header {
   position: absolute;
   top: 0;
@@ -49,7 +55,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(100% - 1.5rem);
+  width: calc(100% - 3rem);
   height: 6.25rem;
   margin: 0 auto;
 }
@@ -61,4 +67,19 @@ li {
 }
 .nav__icon {
   line-height: 0;
+}
+
+/* HERO */
+
+.title-container {
+  position: absolute;
+  top: 40%;
+}
+.hero__title {
+  margin: auto;
+  color: #FFF;
+  width: calc(100% - 3rem);
+  font-size: 2.625rem;
+  padding: 1rem 1.2rem;
+  border: 2px solid #FFF;  
 }
