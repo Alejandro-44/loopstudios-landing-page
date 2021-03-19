@@ -48,6 +48,7 @@ img {
 
 .section {
   width: var(--section-w);
+  max-width: 1114px;
   margin: auto;
   margin-top: 6rem;
 }
@@ -73,6 +74,7 @@ img {
   justify-content: space-between;
   align-items: center;
   width: var(--section-w);
+  max-width: 1114px;
   height: 6.25rem;
   margin: 0 auto;
 }
@@ -125,14 +127,20 @@ img {
 
 .title-container {
   position: absolute;
-  top: 40%;
+  top: 224px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 1114px;
 }
 .hero__title {
   margin: auto;
   color: #FFF;
   width: var(--section-w);
+  max-width: 652px;
   font-size: 2.625rem;
   padding: 1rem 1.2rem;
+  margin: 0 24px;
   border: 2px solid #FFF;  
 }
 /* About */
