@@ -86,7 +86,10 @@ img {
 .nav__icon {
   line-height: 0;
 }
-
+/* MAIN */
+main {
+  margin-bottom: 6rem;
+}
 /* HERO */
 
 .title-container {
