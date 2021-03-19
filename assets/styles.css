@@ -53,6 +53,11 @@ img {
   text-align: center;
   font-size: 2rem;
 }
+.img-container {
+  width: 100%;
+  margin: 0;
+  line-height: 0;
+}
 /* HEADER */
 * {
   box-sizing: border-box;
@@ -83,11 +88,7 @@ img {
 }
 
 /* HERO */
-.img-container {
-  width: 100%;
-  margin: 0;
-  line-height: 0;
-}
+
 .title-container {
   position: absolute;
   top: 40%;
