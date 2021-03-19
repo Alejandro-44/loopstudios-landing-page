@@ -24,7 +24,7 @@ body {
 }
 h2, h3 {
   font-family: var(--heading-f);
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
 }
 a {
@@ -87,7 +87,7 @@ img {
   line-height: 0;
 }
 /* MAIN */
-main {
+.main {
   margin-bottom: 6rem;
 }
 /* HERO */
@@ -141,6 +141,7 @@ main {
   height: 40px;
   padding: 0;
   margin-top: 11px;
+  outline: none;
   border: 1px solid #000;
   background-color: #FFF;
   font-family: var(--heading-f);
@@ -157,4 +158,28 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 54px;
+}
+.footer__logo {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+.footer__menu {
+  text-align: center;
+}
+.footer__item {
+  margin-top: 1rem;
+}
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 200px;
+  margin: 2.5rem auto 1rem;
+}
+.icon-container {
+  line-height: 0;
+}
+
+.copyright {
+  color: #FFF;
 }
