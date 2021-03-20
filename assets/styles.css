@@ -176,9 +176,7 @@
  .creation {
    position: relative;
    cursor: pointer;
- }
- .creations::after {
-  transition: .5s ease;
+
  }
  .creation:hover::after {
    content: " ";
