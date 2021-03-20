@@ -126,16 +126,17 @@
    margin-bottom: 6rem;
  }
  /* HERO */
- 
+ .hero {
+   position: relative;
+ }
  .title-container {
    position: absolute;
-   top: 40%;
+   top: 35%;
    left: 0;
    right: 0;
+   margin: auto;
    width: var(--section-w);
    max-width: 1114px;
-   margin: auto;
-   
  }
  .hero__title {
    display: inline-block;
@@ -438,9 +439,6 @@
   .nav__link, .footer__link {
     margin-right: 25px;
   }
-  .title-container {
-    top: 20%;
-  }
   .about {
     position: relative;
   }
@@ -491,8 +489,5 @@
 @media screen and (min-width:1440px) {
   .hero__title {
     font-size: 70px;
-  }
-  .title-container {
-    top: 40%;
   }
 }
