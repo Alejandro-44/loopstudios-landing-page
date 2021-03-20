@@ -58,7 +58,7 @@
    font-size: 2rem;
  }
  .img-container {
-   width: 100%;
+   display: block;
    margin: 0;
    line-height: 0;
  }
@@ -311,14 +311,7 @@
   margin-bottom: 6rem;
 }
 /* HERO */
-.hero {
-  background-image: url('../images/mobile/image-hero.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+
 .title-container {
   width: var(--section-w);
   max-width: 1114px;
@@ -338,7 +331,6 @@
   text-align: center;
 }
 .about-container {
-  max-width: 546px;
   background-color: #FFF;
 }
 .about__img {
@@ -443,13 +435,11 @@
   .title-container {
     top: 20%;
   }
-  .hero {
-    background-image: url('../images/desktop/image-hero.jpg');
-  }
   .about {
     position: relative;
   }
   .about-container {
+    max-width: 546px;
     position: absolute;
     top: 50%;
     right: 0;
