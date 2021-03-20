@@ -232,6 +232,7 @@
  }
  .icon-container {
    line-height: 0;
+   cursor: pointer;
  }
  .copyright {
    color: #FFF;
@@ -378,6 +379,13 @@
   text-transform: uppercase;
   letter-spacing: 0.35em;
   align-self: center;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.button:hover {
+  background-color: #000;
+  color: #FFF;
+  border: none;
 }
 /* FOOTER */
 .footer {
@@ -411,6 +419,21 @@
 .icon-container {
   line-height: 0;
 }
+.icon-container {
+  position: relative;
+  padding-bottom: 7.5px;
+}
+.icon-container:hover::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #FFF;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 .copyright {
   color: #FFF;
 }
@@ -439,6 +462,23 @@
   }
   .nav__link, .footer__link {
     margin-right: 25px;
+  }
+  .nav__link, .footer__link {
+    position: relative;
+    padding-bottom: 5px;
+  }
+  .nav__link:hover::after,
+  .nav__link.active::after ,  
+  .footer__link:hover::after  {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
   .about {
     position: relative;
