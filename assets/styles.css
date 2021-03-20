@@ -184,6 +184,7 @@
    color: #FFF;
    font-size: 1.5rem;
  }
+ /* button */
  .button {
    width: 157px;
    height: 40px;
@@ -420,6 +421,11 @@
     color: hsl(228, 45%, 44%); 
   }
 /* Media queries */
+@media screen and (max-width:320px) {
+  .hero__title {
+    font-size: 2rem;  
+  }
+}
 @media screen and (min-width:768px) {
 
   .nav__icon {    
