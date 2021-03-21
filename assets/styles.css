@@ -54,6 +54,9 @@
    margin: auto;
    margin-top: 6rem;
  }
+ .section:target {
+   padding-top: 1.5rem;
+ }
  .section__title {
    text-align: center;
    font-size: 2rem;
