@@ -482,13 +482,13 @@
   }
   .nav__link, .footer__link {
     position: relative;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
   .nav__link:hover::after,
   .nav__link.active::after ,  
   .footer__link:hover::after  {
     content: "";
-    width: 50%;
+    width: 30px;
     height: 2px;
     background-color: #FFF;
     position: absolute;
