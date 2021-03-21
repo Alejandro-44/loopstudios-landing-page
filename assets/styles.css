@@ -359,8 +359,9 @@
 }
 /* Creations */
 .creations {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
 }
 .creations-container {
   margin: 1.5rem 0;
@@ -395,7 +396,7 @@
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.35em;
-  align-self: center;
+  justify-self: center;
   cursor: pointer;
   transition: .5s ease;
 }
@@ -508,9 +509,8 @@
     padding: 2rem;
   }
   .creations {
-    display: grid;
     grid-template-columns: 30% 1fr 30%;
-    grid-template-rows: 140x auto;
+    grid-template-rows: auto;
   }
   .creations-container {
     margin: 1.5rem 0;
