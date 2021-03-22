@@ -476,7 +476,7 @@
   }
   .section__title {
     text-align: left;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .nav__icon {    
     display: none;
@@ -509,11 +509,12 @@
     position: relative;
   }
   .about-container {
+    padding-left: 5rem;
+    padding-top: 4rem;
     max-width: 546px;
     position: absolute;
-    top: 50%;
     right: 0;
-    padding: 2rem;
+    bottom: 0;
   }
   .about__info {
     text-align: left;
