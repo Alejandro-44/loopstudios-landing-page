@@ -476,7 +476,10 @@
   }
   .section__title {
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 3rem;
+  }
+  .hero__title {
+    padding: 2rem 2.4rem;
   }
   .main {
     margin-bottom: 10rem;
@@ -538,6 +541,7 @@
   .button {
     grid-column: 3 / 4;
     justify-self: right;
+    font-weight: 900;
   }
   .footer-container {
     flex-direction: row;
