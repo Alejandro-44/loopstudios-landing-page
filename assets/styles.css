@@ -52,10 +52,8 @@
    width: var(--section-w);
    max-width: 1114px;
    margin: auto;
-   margin-top: 6rem;
- }
- .section:target {
    padding-top: 1.5rem;
+   margin-top: 4.5rem;
  }
  .section__title {
    text-align: center;
