@@ -2,7 +2,7 @@
 
 ![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
 
-##About
+## About
 
 This challenge was done with the next methods and technologies:
 - BEM
