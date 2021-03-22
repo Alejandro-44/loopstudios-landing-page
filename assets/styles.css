@@ -513,7 +513,7 @@
   }
   .creations {
     grid-template-columns: 30% 1fr 30%;
-    grid-auto-rows: auto;
+    grid-auto-rows: repeat(2, auto);
   }
   .creations-container {
     margin: 1.5rem 0;
