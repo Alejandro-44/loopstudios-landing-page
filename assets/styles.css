@@ -471,7 +471,13 @@
   }
 }
 @media screen and (min-width:768px) {
-
+  .section {
+    margin-top: 6rem;
+  }
+  .section__title {
+    text-align: left;
+    font-size: 3.5rem;
+  }
   .nav__icon {    
     display: none;
   }
@@ -509,8 +515,11 @@
     right: 0;
     padding: 2rem;
   }
+  .about__info {
+    text-align: left;
+  } 
   .creations {
-    grid-template-columns: 30% 1fr 30%;
+    grid-template-columns: repeat(3, auto);
     grid-auto-rows: repeat(2, auto);
   }
   .creations-container {
