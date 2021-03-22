@@ -8,16 +8,20 @@ menuLink.forEach(n => n.addEventListener('click', linkAction))
 
 function toggleMenu() {
   menu.classList.toggle('active');
-  if(menu.classList.contains('active')){
-    burgerIcon.setAttribute('src', './images/icon-close.svg')
-  } else {
-    burgerIcon.setAttribute('src', './images/icon-hamburger.svg')
-  }
-  
+  changeIcon();
 }
 
 function linkAction() {
   menuLink.forEach(n => n.classList.remove('active'));
   this.classList.add('active')
   menu.classList.remove('active');
+  changeIcon();
+}
+
+function changeIcon(){ 
+  if(menu.classList.contains('active')){
+  burgerIcon.setAttribute('src', './images/icon-close.svg')
+} else {
+  burgerIcon.setAttribute('src', './images/icon-hamburger.svg')
+}
 }
