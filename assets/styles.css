@@ -478,6 +478,9 @@
     text-align: left;
     font-size: 2.5rem;
   }
+  .main {
+    margin-bottom: 10rem;
+  }
   .nav__icon {    
     display: none;
   }
